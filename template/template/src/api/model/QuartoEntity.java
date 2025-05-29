@@ -38,4 +38,10 @@ public class QuartoEntity extends BaseEntity {
     public void setPreco(Double preco) {
         this.preco = preco;
     }
+        @Override
+    public String toString() {
+        return "Quarto{" +
+                "id=" + getId() +
+                ", nome='" + nome + '\'' + "descricao='" + descricao + '\'' + "preco='" + preco + '}';
+    }
 }
