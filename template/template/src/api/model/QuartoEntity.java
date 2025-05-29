@@ -42,6 +42,6 @@ public class QuartoEntity extends BaseEntity {
     public String toString() {
         return "Quarto{" +
                 "id=" + getId() +
-                ", nome='" + nome + '\'' + "descricao='" + descricao + '\'' + "preco='" + preco + '}';
+                ", nome='" + nome + '\'' + "descricao='" + descricao + '\'' + '}';
     }
 }
