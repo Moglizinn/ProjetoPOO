@@ -42,4 +42,11 @@ public class HospedeEntity extends BaseEntity {
     {
         this.reserva = reserva;
     }
+    @Override
+    public String toString() {
+        return "Hospede{" +
+                "id=" + getId() +
+                ", nome='" + nome + '\'' + ", telefone='" + telefone + '\'' +
+                '}';
+    }
 }
